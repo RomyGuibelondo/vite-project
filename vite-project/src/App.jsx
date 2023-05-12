@@ -1,5 +1,8 @@
-import React from 'react'
-import Login from './Login'
+import React from 'react';
+import './App.css'
+import Login from './Login';
+
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Dashboard from './Dashboard'
 
