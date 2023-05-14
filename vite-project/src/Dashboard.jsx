@@ -13,6 +13,9 @@ function Dashboard() {
         setFontColor(color);
     };
 
+    backgroundColor === "#ffffff" && setBackgroundColor("#1B2B50");
+     fontColor === "#000000" && setFontColor("#ffffff");
+
     return (
         <div className="flex">
             <div style={{ backgroundColor, color: fontColor }} className="flex flex-col h-screen p-3  shadow w-60">
@@ -70,9 +73,9 @@ function Dashboard() {
                 </div>
             </div>
             <div className="container mx-auto mt-5 ">
-              <div className="p-2 grid justify-items-centerr">
-                <h4>Employee Management System</h4>
-              </div>
+                <div className="p-2 grid justify-items-centerr">
+                    <h4>Employee Management System</h4>
+                </div>
             </div>
         </div>
     );
