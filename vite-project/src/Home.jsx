@@ -24,7 +24,7 @@ function Home() {
         </div>
         <div className='mt-3 px-5 pt-3'>
             <p className='font-bold'>List of Admins</p>
-            <table className='table-fixed'>
+            <table className='table-fixed border'>
                 <thead>
                     <th>
                         <th>Email</th>

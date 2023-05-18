@@ -35,6 +35,10 @@ app.post('/login', (req, res) =>{
     })
 } )
 
+app.post('/create', (req, res) => {
+    console.log(req.file);
+})
+
 app.listen(8081, () => {
     console.log('running..')
 });
